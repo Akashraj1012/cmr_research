@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-collapse {
+      background-color: #6c757d;
+      padding: 10px;
+      text-align: center;
+    }
+    .navbar-nav {
+      display: block;
+    }
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width: 576px) {
+    .navbar-expand-lg .navbar-collapse {
+      padding: 0;
+    }
+    .navbar-nav .nav-link {
+      padding: 8px;
+    }
+  }
+  .hr{
+    border: 3px solid teal;
+    border-radius: 5px;
+  }
+  nav a{
+    font-weight: 600;
+  }
